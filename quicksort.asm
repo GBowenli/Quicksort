@@ -291,7 +291,6 @@ exitQuickSort:	lw $ra, 0($sp)		# restore return address
 		jr $ra									
 		
 		
-# CHECK REGISTERS IF THEY ARE CHANGED IN SUB ROUTINES		
 # $a0 address of array
 # $a1 begin index
 # a2 end index
